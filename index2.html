@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NBA Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="row">
+    <div class="col">
+        <div class="jumbotron">
+            <div class="container">
+             
+                  
+                  </div>
+                <h1 class="display-4">NBA Player Stats</h1>
+                <p class="lead">View and compare stats of NBA players</p>
+            </div>
+        </div>
+    </div>
+</div>
+<label for="player-input">Search</label>
+<input type="text" id="player-input"><br>
+
+<button id="find-player" value="Player Search">Button Page</button>
+
+<div id="buttonArea"></div>
+<div class="row">
+    <div class="col-3">
+        <div id="players" class="panel">
+            <div>
+                    <div id="player-images">
+      
+                        </div>
+                <img src="images/no-photo.png" class="playerImage rounded-circle">
+            </div>
+        </div>
+    </div>
+    <div class="col-9">
+        <div id="graph" class="panel-table">
+            <h1 class="display-5">Stevie Buckets | PG</h1>
+            <p>Smallville Salamanders</p>
+            <div id="player-view"></div>
+            <table data-team="salamanders" data-playerNameFirst="Stevie" data-playerNameLast="Buckets">
+                <tbody>
+                    <tr id="categories">
+                        <td id="GP-CAT">GP</td>
+                        <td id="MIN-CAT">MIN</td>
+                        <td id="FGM-CAT">FGM</td>
+                        <td id="FGA-CAT">FGA</td>
+                        <td id="FGPCT-CAT">FGPCT</td>
+                        <td id="FG3M-CAT">FG3M</td>
+                        <td id="FG3A-CAT">FG3A</td>
+                        <td id="FG3PCT-CAT">FG3PCT</td>
+                        <td id="FTM-CAT">FTM</td>
+                        <td id="FTA-CAT">FTA</td>
+                        <td id="FTPCT-CAT">FTPCT</td>
+                        <td id="OREB-CAT">OREB</td>
+                        <td id="DREB-CAT">DREB</td>
+                        <td id="REB-CAT">REB</td>
+                        <td id="AST-CAT">AST</td>
+                        <td id="STL-CAT">STL</td>
+                        <td id="BLK-CAT">BLK</td>
+                        <td id="TO-CAT">TO</td>
+                        <td id="PF-CAT">PF</td>
+                        <td id="PT-CAT">PTS</td>
+                    </tr>
+                    <tr id="stats">
+                        <td id="GP-ST">#</td>
+                        <td id="MIN-ST">#</td>
+                        <td id="FGM-ST">#</td>
+                        <td id="FGA-ST">#</td>
+                        <td id="FGPCT-ST">#</td>
+                        <td id="FG3M-ST">#</td>
+                        <td id="FG3A-ST">#</td>
+                        <td id="FG3PCT-ST">#</td>
+                        <td id="FTM-ST">#</td>
+                        <td id="FTA-ST">#</td>
+                        <td id="FTPCT-ST">#</td>
+                        <td id="OREB-ST">#</td>
+                        <td id="DREB-ST">#</td>
+                        <td id="REB-ST">#</td>
+                        <td id="AST-ST">#</td>
+                        <td id="STL-ST">#</td>
+                        <td id="BLK-ST">#</td>
+                        <td id="TO-ST">#</td>
+                        <td id="PF-ST">#</td>
+                        <td id="PT-ST">#</td>
+                    </tr>
+                    <tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div id="table" class="panel">
+            Graph
+        </div>
+    </div>
+</div>
+
+<!-- //JavaScript and Logic// -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="nba.js"></script>
+</body>
+</html>

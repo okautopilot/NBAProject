@@ -1,0 +1,88 @@
+body {
+    margin: auto;
+    width: 1180px;
+}
+
+.jumbotron {
+    padding: 8px;
+}
+.panel {
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0px 0px 32px;
+}
+
+#buttonArea {
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    padding: 4px;
+    margin: 0px 0px 32px;
+}
+
+.playerImage {
+    height: 174px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    background-color: #333;
+}
+
+.panel-table {
+    background-color: #e9ecef;
+    height: 174px;
+    border-radius: .3rem;
+    padding: 4px;
+    margin: 0px 0px 32px 50px;
+}
+
+th, td {
+    border-right: 1px solid gray;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.finalEntry {
+    border-right: none;
+}
+
+.btn-light {
+    margin-right: 4px;
+}
+
+.playerInfo {
+    margin-left: 15px;
+}
+
+#nba {
+    height: 120px;
+    float: left;
+}
+
+.line {
+    fill: none;
+    stroke: #75076c;
+    stroke-width: 3;
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+​
+.dot {
+    fill: #5f5f5f;
+    stroke: rgb(155, 33, 33);
+}
+
+.focus .circle {
+  fill: none;
+  stroke: rgb(255, 11, 202);
+}
